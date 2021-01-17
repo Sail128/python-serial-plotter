@@ -110,8 +110,8 @@ class serial_debug_gui():
             # now layout the plots favouring devision in height
             n = len(visible_plots)
             if n ==1:
-                configure_item(visible_plots[0],x_pos=width_4, y_pos=menu_height,
-                       width=width_4*3, height=height_4*4)
+                n_width =1
+                n_height = n
             elif n ==2 or n==3:
                 n_width =1
                 n_height = n
